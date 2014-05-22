@@ -7,7 +7,7 @@ Audio and video class room interaction on Aakash
 Objective
 ---------
 
-To design and implement interactive class room application for **Audio and Video Communication in Aakash Tablet** using HTML 5.
+To design and implement interactive class room application for **Audio and Video Communication in Aakash Tablet** using HTML 5 and WebRTC.
 
 Introduction
 ------------
