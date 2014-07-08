@@ -1,0 +1,420 @@
+body{
+	background-color:#BDBDBD;
+	background-image:url("/AVCRIOA/images/escheresque.png");
+	font-family:"Comic Sans MS";
+}
+.divison {
+	position:absolute;
+	background-color: #81BEF7;//#81DAF5;
+	left:5px;
+	width: 960px;
+	box-shadow:2px 5px 30px 2px #6E6E6E;
+	
+}
+#header{
+	background-image:url("/AVCRIOA/images/header_blue.png");
+	border-radius:40% 40% 0px 0px;
+	top:10px;
+	height:65px;
+	z-index:-1;
+	text-align: center;
+
+}
+#headertext{
+	position:relative;
+	font-family:"Times New Roman";
+	font-size:30px;
+	top:20%;
+	color:white;
+	text-shadow:2px 2px 4px black;
+}
+
+.studentpane{
+	position:absolute;
+	left:5px;
+	top:75px;
+	width: 960px;
+	height:360px;
+	background-color:#A9A9F5;
+	z-index:0;
+}
+.shadow{
+	position:absolute;
+	left:5px;
+	top:75px;
+	width: 960px;
+	height:360px;
+	z-index:-2;
+	box-shadow:2px 5px 30px 2px #6E6E6E;
+
+}
+#footer{
+	background-image:url("/AVCRIOA/images/footer_blue.png");
+	height:30px;
+	top:435px;
+	border-radius:0px 0px 40% 40%;/* 30px 30px */
+	visibility:visible;
+	z-index:-1;
+	padding-top:5px;
+	text-align:center;
+	font-size:25px;
+}
+#footertext{
+	position:relative;
+	font-family:"Times New Roman";
+	font-size:16px;
+	color:white;
+	text-shadow:2px 2px 6px black;
+}
+
+.datapane{
+	position:relative;
+	background-color:#EEEDD2;
+	z-index:2;
+	left:1%;
+	width:88%;
+	height:97%;
+	top:1%;
+	
+}
+
+#optionspane{
+	position:inherit;
+	/*background-color:#CEC992;*/
+	z-index:2;
+	left:89%;
+	top:1%;
+	width:10%;
+	height:97%;
+/*	border:2px solid green;*/
+	
+	padding-left:1%;
+	overflow:hidden;
+	/*padding-top:2%;*/
+}
+#audioimg{
+	display:none;
+	position:relative;
+	background-image:url(/AVCRIOA/images/record.png);
+	background-repeat:no-repeat;
+	opacity:0.7;
+	background-size:100% 100%;
+	width:100%;
+	height:20%;
+	/*	border:4px solid green;*/
+}
+#audioimg:hover{
+	background-image:url(/AVCRIOA/images/recordhover.png);
+	background-repeat:no-repeat;
+	opacity:1;
+}
+#videoimg{
+	display:none;
+	width:100%;
+	height:20%;
+	position:relative;
+background-image:url(/AVCRIOA/images/video.png);
+	background-repeat:no-repeat;
+	opacity:0.7;
+	background-size:100% 100%;
+}
+#videoimg:hover{
+	background-image:url(/AVCRIOA/images/videohover.png);
+	background-repeat:no-repeat;
+	opacity:1;
+}
+#textimg{
+	display:none;
+	width:100%;
+	height:20%;
+	position:relative;
+	background-image:url(/AVCRIOA/images/text.png);
+	background-repeat:no-repeat;
+	opacity:0.7;
+	background-size:100% 100%;
+}
+#textimg:hover{
+	background-image:url(/AVCRIOA/images/texthover.png);
+	background-repeat:no-repeat;
+	opacity:1;
+}
+ #broadcastimg{
+  display:none;
+	position:relative;
+	background-image:url(/AVCRIOA/images/broadcast.png);
+	background-repeat:no-repeat;
+	opacity:0.7;
+	background-size:100% 100%;
+	width:100%;
+	height:20%;
+  }
+.buttons{
+	position:relative;
+	width:80%;
+	height:30%;
+
+}
+
+#stat{
+	position:relative;
+	/*padding-left:4%;*/
+	top:5%;
+	color:green;
+	font-size:35px;
+	text-shadow:2px 2px lightblue;
+}
+#duration{
+	color:black;
+	shadow:2px 2px 2px blue;
+	font-size:30px;
+}
+#uploadaudiostatus{
+	font-size:30px;
+}
+#question{
+	position:absolute;
+	left:5%;
+	top:35%;
+	border-color:2px solid lightgray;
+	width:70%;
+	height:40%;
+	box-shadow:2px 2px 4px 2px black;
+	font-size:30px;
+}
+
+
+#submitText{
+	position:absolute;
+	top:80%;
+	left:33%;*/
+	height:10%;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#askquest,#getback{
+	visibility:visible;
+	position:absolute;
+	left:10px;
+	top:35%;
+	width:20%;
+	height:10%;
+	font-size:150%;
+}
+#getback{
+	display:none;
+}
+#audiopane,#textpane,#videopane{
+	display:none;
+	margin-left:30px;
+}
+#status{
+	position:absolute;
+	width:10%;
+	height:20%;
+	top:60%;
+	left:20px;
+	color:green;
+	font-size:40px;
+	text-shadow:2px 2px lightblue;
+	font-weight:bold;
+	text-shadow:none;
+}
+#login{
+	position:absolute;
+	top:10%;
+	left:60%;
+	width:30%;
+	height:50%;
+	color:brown;
+	font-weight:bold;
+}
+#aboutus{
+	position:absolute;
+	left:5%;
+	top:10%;
+	width:50%;
+	height:50%;
+	border:1px solid blue;
+	border-radius:35px 35px;
+	text-align:justify;
+	padding:5px;
+	font-size:18px;
+}
+#abt{
+	position:absolute;
+	background-color:brown;
+	color:yellow;
+	font-weight:bold;
+	top:-5%;
+	width:20%;
+	height:10%;
+	font-size:25px;
+	border-radius:40px 40px;
+	margin-left:10px;
+	padding:5px;
+	text-align:justify;
+}
+#videoRequests{
+	position:absolute;
+	width:20%;
+	left:5%;
+	top:17%;
+	height:81%;
+	border:1px solid black;
+	font-size:18px;
+	font-color:green;
+	text-shadow:2px 2px 4px blue;
+}
+#audioRequests{
+	display:none;
+	margin-top:8%;
+	margin-left:10%;
+}
+#videoelement{
+	position:absolute;
+	left:35%;
+	top:10%;
+	width:60%;
+	height:90%;
+	/*border:1px solid green;*/
+}
+#controls{
+	position:absolute;
+	top:10%;
+}
+#textualRequests{
+	display:none;
+	height:78%;
+	margin-top:5%;
+	overflow-y:scroll;
+}
+#audiocontrol{
+	width:200px;
+	height:30px;
+	left:4%;
+}
+
+input[type="button"],button,input[type="submit"],input[type="reset"]{
+	background-image:url(../images/button1.png);
+	background-repeat:repeat-x;
+	border-radius:4px;
+	border:none;
+	height:45px;
+	color:black;
+	font-size:30px;
+	font-family:Verdana;
+	box-shadow:0px 0px 8px 1px gray;
+	text-shadow:1px 1px 2px white;
+}
+input[type="button"]:hover,button:hover,input[type="submit"]:hover,input[type="reset"]:hover{
+	background-image:url('/AVCRIOA/images/btnhover.png');
+	background-repeat:repeat-x;
+	border-radius:4px;
+	color:white;
+	box-shadow:1px 1px 8px 2px green;
+	text-shadow:1px 1px 2px white;
+}
+input[type="button"]:disabled,button:disabled{
+	background-image:url("/AVCRIOA/images/button_disabled.png");
+
+	}
+select {
+   background-image:url("/AVCRIOA/images/selectbg.jpg");
+   background-repeat:repeat-x;
+   width: 180px;
+   margin-top:10px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 1px solid gray;
+   border-radius: 8px;
+   height: 40px;
+   text-shadow:1px 1px 4px 6px green;
+  /* -webkit-appearance: none;*/
+   }
+  #selectpane
+  {
+	font-weight:bold;
+	font-size:24px;
+	font-color:black;
+	text-shadow:2px 2px 2px gray;
+	
+	}
+
+  input[type="text"],input[type="password"]{
+ 	font-size:18px;
+ 	width:200px;
+ 	max-length:20;
+  }
+  #audiorequestpanel{
+   /*background-image:url("/AVCRIOA/images/tablebg.png");*/
+   background-color:#D8CEF6;
+   border-collapse:collapse;
+   text-align:left;
+   width:80%;
+  }
+   #audiorequestpanel th{
+   color:green;
+   }
+   #audiorequestpanel td{
+   color:blue;
+   }
+     #audiorequestpanel td{
+	height:30px;
+   }
+  #audiorequestpanel th, #audiorequestpanel td, #audiorequestpanel tr{
+  border-color:#173B0B;
+  border-size:1px;
+  border-style:solid;
+  border-collapse:collapse;
+  }
+    /*----------------------------BroadCasting CSS------------------------------*/
+  #broadcastvideo{
+  position:absolute;
+  width:60%;
+  height:70%;
+  left:20%;
+  top:5%;
+  }
+
+  #inst_video{
+  position:absolute;
+  border:1px solid black;
+  left:30%;
+  top:1%;
+  height:100%;
+  width:60%;
+  }
+  #right{
+  	padding-top:2%;
+  	padding-left:1%;
+  	border:2px solid green;
+  	position:absolute;
+  	background-color:#CAF9F2;
+  
+  	top:19%;
+  	width:26%;
+  	height:75%;
+  	
+  }
+  #conTo
+  {
+  margin-top:-3%;
+  font-size:23px;
+  text-shadow:1px 1px 2px white;
+	 }
+  #lectures{
+  	border-bottom:1px solid green;
+  	position:absolute;
+  	left:0%;
+  	color:Red;
+  	text-shadow:1px 1px 2px blue;
+  	font-size:20px;
+  /*	background-color:#CAF9F2;*/
+ 	top:12%;
+ 	width:28%;
+ 	
+ 	height:7%;
+  }
+ 

@@ -1,0 +1,25 @@
+2/6/2013 14:55
+Node.js v.0.8.14. 
+Even though the newer versions are available (Latest v0.11.2) we have used v0.8.14 since we encountered installation problems with  serial port module in the versions higher than the one we have used.
+
+To install source and build on Rpi:
+1.Download the source of v0.8.14 from the given URL.
+http://nodejs.org/dist/v0.8.14/node-v0.8.14.tar.gz
+
+tar -xzVf node-v0.8.14.tar.gz
+cd node-v0.8.14
+./configure
+make
+sudo make install
+
+Node that, you may need to change the version numbers according to the version you want.
+
+After that, you can check that Node and NPM are properly installed using the following command lines:
+
+node -v
+should reply v0.8.14
+
+npm -v
+should reply 1.1.65
+
+The compilation will run for 1 or 2 hours on RPi

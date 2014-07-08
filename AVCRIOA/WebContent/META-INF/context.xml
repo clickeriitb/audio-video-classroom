@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/avcrioa" auth="avcrioa"
+        type="javax.sql.DataSource" username="root" password="password"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/avcrioa"
+        maxActive="500" maxIdle="100" /> 
+</Context>
